@@ -75,7 +75,7 @@
 
 ---
 
-<fontsize=2><b>Academic</b></font> 
+<font size=2><b>Academic</b></font> 
 
 - *2017*,        **National Scholarship**, Academic Year 2016-2017.
 - *2017*,        **First Prize in Regional College Students Physics Contest**, Academic Year 2016-2017.
