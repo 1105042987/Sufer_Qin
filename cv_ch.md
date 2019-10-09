@@ -41,14 +41,14 @@
 
 - **RoboMaster 机甲大师赛:**  
 
-  <font face="华文琥珀" size=2>嵌入式系统设计:</font>                                                                        <font color="gray" size = 2>2017 六月 - 至今 </font> 
+  <font face="华文琥珀" size=2>嵌入式系统设计:</font>                                                                        <font color="gray" size = 2>2017 六月 - 2019 八月 </font> 
 
   > **·** 为校队设计了一款用户友好的嵌入式框架。
   > **·** 研究优化了机器人的云台控制算法，提高其稳定性。
 
 - **信息工程专业实验室:**  
 
-  <font face="华文琥珀" size=2>超分辨率重建相关研究:</font>                                                               <font color="gray" size = 2>2019 二月 - 至今</font> 
+  <font face="华文琥珀" size=2>超分辨率重建相关研究:</font>                                                               <font color="gray" size = 2>2019 二月 - 2019 6月</font> 
 
   > **·** 设计了一个通用接口将 *分形数学理念* 与 *超分辨率重建（Super Resolution，SR）* 结合在一起，普适的提高大多数SR方法的重建效果。
   > **·** 获得了 PSNR 指标上 0.1 dB 的提升，以及 SSIM 指标上 0.05% 的提升。
@@ -56,10 +56,19 @@
 
 - **全国大学生物联网设计大赛: ** 
 
-  <font face="华文琥珀" size=2>批量二维码处理:</font>                                                                         <font color="gray" size = 2>2019 四月 - 至今 </font> 
+  <font face="华文琥珀" size=2>批量二维码处理:</font>                                                                         <font color="gray" size = 2>2019 四月 - 2019 八月 </font> 
 
-  > **·** 基于 SSD（*Single-Shot Object Detection Network*）裁剪得到新网络，在不影响准确度的前提下使得网络运行速度提升数百倍，从而使其在移动设备上实时处理成为可能。
-  > **·** 设计了一种记忆机制来动态的检测与存储更大规模的二维码（如流水线上的二维码群组）。
+  > **·** 基于 SSD（*Single-Shot Object Detection Network*）裁剪得到新网络，在不影响准确度的前提下使得网络运行速度提升数百倍，使其在移动设备上可以进行实时处理。
+  > **·** 设计了全新的追踪算法，利用时间上的信息冗余，充分减少重复计算并提高物体检测精度。
+  
+- **Digestive-System Pathological Detection and Segmentation Challenge 2019: ** 
+
+  <font face="华文琥珀" size=2>SJTU_MedicalCV:</font>                                                                         <font color="gray" size = 2>2019 七月 - 2019 十月 </font> 
+
+  > **·** 消化道检测任务中负责CenterNet网络代码向竞赛项目的迁移与测试工作。
+  > **·** 结肠镜检测的分类任务中担任主要负责人，最终网络性能在测试数据集上可以实现1.0的AUC。
+
+  
 
 ---
 
@@ -80,12 +89,13 @@
 | *2017.09* | **国家奖学金** |中华人民共和国教育部|
 |*2017*.12|**全国部分地区大学生物理竞赛一等奖（上海赛区）**|上海市物理协会|
 |*2018.08*|**RoboMaster 2018 全国总决赛二等奖**| 共青团中央、全国学联秘书处 |
-|*2018.09*|**本科生优秀奖学金**|2017-2018 学年|
+|*2018.09*|**本科生优秀奖学金**|上海交通大学|
 |*2019.08*|**RoboMaster 2018 全球总决赛亚军**|共青团中央，全国学联秘书处|
 |*2019.08*|**全国大学生物联网设计竞赛国赛一等奖**|教育部高等学校计算机类专业教学指导委员会|
+|*2019.10*|**Digestive-System Pathological Detection and Segmentation Challenge 2019中，消化道检测赛道第二名，结肠镜检测分类与分割赛道第四名**|Grand Challenges & MICCAI 2019|
 
 <font face="华文行楷" size=4><b>社会服务方面</b></font> 
 
-- *2018.12*,         **优秀学生干部**，共青团上海交通大学委员会颁发。
+- *2018.12*,         **优秀学生干部**，共青团上海交通大学委员会。
 
 ---
