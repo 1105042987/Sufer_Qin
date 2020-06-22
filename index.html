@@ -27,6 +27,10 @@
             font-family: 'Trajan Pro';
             src: url('./font/TrajanPro-Regular.otf');
         } 
+        @font-face {
+            font-family: 'Fira Code';
+            src: url('./font/FiraCode-Retina-2.ttf');
+        } 
         .title{
             font-size: 8mm;
             color:gray;
@@ -47,8 +51,22 @@
             margin-right: 15mm;
             color:gray;
         }
+        .res{
+            font-size:3.5mm;
+            margin-top:0mm;
+            margin-bottom: 2mm;
+        }
         .resR{
-
+            float:right; 
+            text-align:right; 
+            margin-right: 15mm;
+            color:gray
+        }
+        .resL{
+            margin-top:0.5mm;
+            float:left; 
+            text-align:left;
+            font-family:"Fira Code"
         }
     </style>
 </head>
@@ -64,7 +82,7 @@
                 </p>
                 <p style="font-size: 4mm;text-align: center;margin:8mm">
                     <span style="color: gray">
-                        Undergraduate · Information Engineering
+                        Graduate · Information Engineering
                         <br />
                         800 Dongchuan RD. Minhang District, Shanghai, China
                         <br />
@@ -85,157 +103,193 @@
             <!-- Education -->
             <p class="title"><b>Education</b></p>
             <hr />
-            <ul>
-                <li>
-                    <div class="eduL">
-                        <b>SJTU (Shanghai Jiao Tong University):</b>
-                    </div>
-                    <div class="eduR">
-                        Shanghai, China   Sept 2016 - June 2020 
-                    </div>
-                </li>
-            </ul>
+            <ul><li>
+                <div class="eduL"><b>
+                    B.S. in SJTU (Shanghai Jiao Tong University):
+                </b></div><div class="eduR">
+                    Shanghai, China   Sept 2016 - June 2020 
+                </div>
+            </li><li>
+                <div class="eduL"><b>
+                    M.S. in SJTU (Shanghai Jiao Tong University):
+                </b></div><div class="eduR">
+                    Shanghai, China   Sept 2020 - Now
+                </div>
+            </li></ul>
 
             <!-- Skill -->
             <p class="title"><b>Skill</b></p>
             <hr />
             <ul>
-                <li><strong>Programming</strong>: Python, C/C++, C#, Java, HTML5</li>
+                <li><strong>Programming</strong>: Python, C/C++, CUDA, C#, Java, HTML5</li>
                 <li><strong>Languages</strong>: English (CET-6), Chinese (Native)</li>
             </ul>
 
             <!-- Research -->
             <p class="title"><b>Research Experience</b></p>
             <hr />
-            <ul>
-                <li>
-                    <p class="subtitle"><strong>32rd PRP (Participation in Research Program):</strong></p>
-                    <div style="font-size:3.5mm;margin-top:0mm;margin-bottom: 2mm">
-                        <div style="float:left; text-align:left;font-family:Fira Code"><em>
-                            Self-propelled Car Based on Cloud Platform:
-                        </em></div>
-                        <div style="float:right; text-align:right; margin-right: 15mm;color:gray">
-                            Sept 2017 - Janu 2018
-                        </div>
-                    </div>
-                    <br />
-                    <ul>
-                        <li> Implemented the route detection and optimal route decision function based on OpenCV.</li>
-                        <li> Implemented the interaction between the cloud platform and the car.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p class="subtitle"><strong>RoboMaster:</strong></p>
-                    <div style="font-size:3.5mm;margin-top:0mm;margin-bottom: 2mm">
-                        <div style="float:left; text-align:left;font-family:Fira Code"><em>
-                            Embedded System Design:
-                        </em></div>
-                        <div style="float:right; text-align:right; margin-right: 15mm;color:gray">
-                            June 2017 - August 2019
-                        </div>
-                    </div>
-                    <br />
-                    <ul>
-                        <li> Designed a user-friendly program framework for the school team.</li>
-                        <li> Researched for an new algorithm to optimize the stability of the gimbal
-                        of the robots.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p class="subtitle"><strong>Lab of Information Engineering:</strong></p>
-                    <div style="font-size:3.5mm;margin-top:0mm;margin-bottom: 2mm">
-                        <div style="float:left; text-align:left;font-family:Fira Code"><em>
-                            Research on Single-Image Super Resolution:
-                        </em></div>
-                        <div style="float:right; text-align:right; margin-right: 15mm;color:gray">
-                            Feb 2019 - June 2019
-                        </div>
-                    </div>
-                    <br />
-                    <ul>
-                        <li> Combined the <em>Fractal mathematics</em> and SR
-                        (<em>Super-Resolution</em>) to create a common interface that enables quality improvement
-                        for every SR method.</li>
-                        <li> Make an improvement of 0.1 dB in PSNR and 0.05% in SSIM.</li>
-                        <li> Prepared to migrate the method on <em>Zero-Shot Super-Resolution</em> on
-                        account of the special attention mechanism of <em>Fractal mathematics</em>.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p class="subtitle"><b>China Undergraduate IoT (Internet of Things) Design Competition: </b></p>
-                    <div style="font-size:3.5mm;margin-top:0mm;margin-bottom: 2mm">
-                        <div style="float:left; text-align:left;font-family:Fira Code"><em>
-                            Dense QR code Decoder:
-                        </em></div>
-                        <div style="float:right; text-align:right; margin-right: 15mm;color:gray">
-                            April 2019 - August 2019
-                        </div>
-                    </div>
-                    <br />
-                    <ul>
-                        <li> Design a new net based on <em>Single-Shot Object Detection Network</em> which
-                        can increases operating speed by hundreds times with little loss of accuracy and enable the
-                        program to run in real time on mobile devices.</li>
-                        <li> Design a new tracking algorithm that utilizes temporal information redundancy to reduce duplicate calculations and
-                        improve object detection accuracy.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p class="subtitle"><b>Digestive-System Pathological Detection and Segmentation Challenge 2019: </b></p>
-                    <div style="font-size:3.5mm;margin-top:0mm;margin-bottom: 2mm">
-                        <div style="float:left; text-align:left;font-family:Fira Code"><em>
-                            SJTU_MedicalCV    
-                        </em></div>
-                        <div style="float:right; text-align:right; margin-right: 15mm;color:gray">
-                            July 2019 - October 2019
-                        </div>
-                    </div>
-                    <br />
-                    <ul>
-                        <li>Responsible for the migration and testing of CenterNet network code to the competition project in the digestive tract
-                        detection task.</li>
-                        <li>Chief of the Colonoscopy Tissue Classification task. Achieve 1.0 AUC on test datasets.</li>
-                    </ul>
-                </li>
-            </ul>
+            <ul><li>
+                <p class="subtitle"><strong>32rd PRP (Participation in Research Program):</strong></p>
+                <div class="res"><div class="resL"><em>
+                    Self-propelled Car Based on Cloud Platform:
+                </em></div><div class="resR">
+                    Sept 2017 - Janu 2018
+                </div></div><br /><ul><li> 
+                    Implemented the route detection and optimal route decision function based on OpenCV.
+                </li><li> 
+                    Implemented the interaction between the cloud platform and the car.
+                </li></ul>
+            <!-- </li><li>
+                <p class="subtitle"><strong>RoboMaster:</strong></p>
+                <div class="res"><div class="resL"><em>
+                    Embedded System Design:
+                </em></div><div class="resR">
+                    June 2017 - August 2019
+                </div></div><br /><ul><li> 
+                    Designed a user-friendly program framework for the school team.
+                </li><li> 
+                    Researched for an new algorithm to optimize the stability of the gimbal
+                    of the robots.
+                </li></ul> -->
+            </li><li>
+                <p class="subtitle"><strong>Lab of Information Engineering:</strong></p>
+                <div class="res"><div class="resL"><em>
+                    Research on Single-Image Super Resolution:
+                </em></div><div class="resR">
+                    Feb 2019 - June 2019
+                </div></div><br /><ul><li> 
+                    Combined the <em>Fractal mathematics</em> and SR(<em>Super-Resolution</em>)
+                    to create a common interface that enables quality improvement for every SR method.
+                </li><li> 
+                    Make an improvement of 0.1 dB in PSNR and 0.05% in SSIM.
+                </li><li> 
+                    Prepared to migrate the method on <em>Zero-Shot Super-Resolution</em> on
+                    account of the special attention mechanism of <em>Fractal mathematics</em>.
+                </li></ul>
+            <!-- </li><li>
+                <p class="subtitle"><b>China Undergraduate IoT (Internet of Things) Design Competition: </b></p>
+                <div class="res"><div class="resL"><em>
+                    Dense QR code Decoder:
+                </em></div><div class="resR">
+                    April 2019 - August 2019
+                </div></div><br /><ul><li> 
+                    Design a new net based on <em>Single-Shot Object Detection Network</em> which
+                    can increases operating speed by hundreds times with little loss of accuracy and enable the
+                    program to run in real time on mobile devices.
+                </li><li> 
+                    Design a new tracking algorithm that utilizes temporal information redundancy to reduce duplicate 
+                    calculations and improve object detection accuracy.
+                </li></ul>
+            </li><li>
+                <p class="subtitle"><b>Digestive-System Pathological Detection and Segmentation Challenge 2019: </b></p>
+                <div class="res"><div class="resL"><em>
+                    SJTU_MedicalCV    
+                </em></div><div class="resR">
+                    July 2019 - October 2019
+                </div></div><br /><ul><li>
+                    Responsible for the migration and testing of CenterNet network code to the competition project in the digestive tract
+                    detection task.
+                </li><li>
+                    Chief of the Colonoscopy Tissue Classification task. Achieve 1.0 AUC on test datasets.
+                </li></ul> -->
+            </li><li>
+                <p class="subtitle"><strong>Lab of Information Engineering:</strong></p>
+                <div class="res"><div class="resL"><em>
+                    Research on Single-Image Super Resolution:
+                </em></div><div class="resR">
+                    Feb 2019 - June 2019
+                </div></div><br /><ul><li> 
+                    Combined the <em>Fractal mathematics</em> and SR(<em>Super-Resolution</em>)
+                    to create a common interface that enables quality improvement for every SR method.
+                </li><li> 
+                    Make an improvement of 0.1 dB in PSNR and 0.05% in SSIM.
+                </li><li> 
+                    Prepared to migrate the method on <em>Zero-Shot Super-Resolution</em> on
+                    account of the special attention mechanism of <em>Fractal mathematics</em>.
+                </li></ul>
+            </li></ul>
 
-            <p>
-                <p class="title"><b>Extracurricular Activity</b></p>
-            </p>
-
+            <p class="title"><b>
+                Extracurricular Activity
+            </b></p>
             <hr />
 
-            <ul>
-                <li><strong>Project Management Department, SIC(Student Innovation Center) of SJTU:</strong>
-                    <em>Minister</em>
-                    <ul>
-                        <li>Organized the RoboMaster School Tournament.</li>
-                        <li>Provided technical support for embedded development courses at SIC.</li>
-                    </ul>
-                </li>
-            </ul>
+            <ul><li>
+                <strong>Project Management Department, SIC(Student Innovation Center) of SJTU:</strong> <em>Minister</em>
+                <ul><li>
+                    Organized the RoboMaster School Tournament.
+                </li><li>
+                    Provided technical support for embedded development courses at SIC.
+                </li></ul>
+            <!-- </li><li> -->
+            </li></ul>
 
-            <p>
-                <p class="title"><b>Honors &amp; Awards</b></p>
-            </p>
+
+            <p class="title"><b>Honors &amp; Awards</b></p>
             <hr />
 
-            <ul>
-                <li><em>2017.11</em>, <strong>National Scholarship</strong>, Chinese Ministry of Education.</li>
-                <li><em>2017.12</em>, <strong>First Prize in Regional College Students Physics Contest</strong>, Shanghai Physical Association.</li>
-                <li><em>2018.08</em>, <strong>Second Prize in RoboMaster 2018 National Finals</strong>, Central Committee of the Communist Youth League &
-                    National Federation of Students.</li>
-                <li><em>2018.11</em>, <strong>Academic Excellence Scholarship</strong>, Shanghai Jiao Tong University.</li>
-                <li><em>2018.12</em>, <strong>Excellent Student Cadre</strong>, Communist Youth League Shanghai Jiaotong University Committee.</li>
-                <li><em>2019.08</em>, <strong>Second Place (Special prize) in RoboMaster 2019 National Finals</strong>, Central Committee of the Communist 
-                    Youth League, National Federation of Students.</li>
-                <li><em>2019.08</em>, <strong>First Prize in China Undergraduate IoT (Internet of Things) Design Competition</strong>, 
-                    Ministry of Education, Computer Science Teaching Steering Committee.</li>
-                <li><em>2019.08</em>, <strong>2nd Place in Signet Ring Cell Detection task and 4th Place in the Colonoscopy Tissue Segmentation 
-                    and Classification task at Digestive-System Pathological Detection and Segmentation Challenge 2019</strong>,
-                    Grand Challenges & MICCAI 2019.</li>
-                <li><em>2019.11</em>, <strong>Academic Excellence Scholarship</strong>, Shanghai Jiao Tong University.</li>
-            </ul>
+            <ul><li><em>
+                2017.11
+                </em>, <strong>
+                National Scholarship
+                </strong>, 
+                Chinese Ministry of Education.
+            </li><li><em>
+                2017.12
+                </em>, <strong>
+                First Prize in Regional College Students Physics Contest
+                </strong>, 
+                Shanghai Physical Association.
+            </li><li><em>
+                2018.08
+                </em>, <strong>
+                Second Prize in RoboMaster 2018 National Finals
+                </strong>, 
+                Central Committee of the Communist Youth League & National Federation of Students.
+            </li><li><em>
+                2018.11
+                </em>, <strong>
+                Academic Excellence Scholarship
+                </strong>, 
+                Shanghai Jiao Tong University.
+            </li><li><em>
+                2018.12
+                </em>, <strong>
+                Excellent Student Cadre
+                </strong>,
+                Communist Youth League Shanghai Jiaotong University Committee.
+            </li><li><em>
+                2019.08
+                </em>, <strong>
+                Second Place (Special prize) in RoboMaster 2019 National Finals
+                </strong>,
+                Central Committee of the Communist Youth League, National Federation of Students.
+            </li><li><em>
+                2019.08
+                </em>, <strong>
+                First Prize in China Undergraduate IoT (Internet of Things) Design Competition
+                </strong>, 
+                Ministry of Education, Computer Science Teaching Steering Committee.
+            </li><li><em>
+                2019.08
+                </em>, <strong>
+                2nd Place in Signet Ring Cell Detection task and 4th Place in the Colonoscopy Tissue Segmentation 
+                and Classification task at Digestive-System Pathological Detection and Segmentation Challenge 2019
+                </strong>,
+                Grand Challenges & MICCAI 2019.
+            </li><li><em>
+                2019.11
+                </em>, <strong>
+                Academic Excellence Scholarship
+                </strong>, 
+                Shanghai Jiao Tong University.
+            </li><li><em>
+                2020.06
+                </em>, <strong>
+                Outstanding graduates
+                </strong>, 
+                Shanghai Jiao Tong University.
+            </li></ul>
 
             <p class="title"><b>Publications</b></p>
             <hr />
