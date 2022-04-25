@@ -53,32 +53,36 @@
             font-style: italic;
         }
         .res{
-            font-size:3.5mm;
-            margin-top:0mm;
-            margin-bottom: 2mm;
-        }
-        .resR{
-            float:right; 
-            text-align:right; 
-            margin-right: 15mm;
-            color:gray
+            margin-bottom:1mm;
+            /* margin-top:1mm; */
         }
         .resL{
-            margin-top:0.5mm;
-            float:left; 
+            float:left;
+            width: 80%;
+            height: 5mm;
             text-align:left;
             font-family:"Fira Code"
+        }
+        .resR{
+            margin-top: auto;
+            width: 15%;
+            height: 4mm;
+            font-size:3.5mm;
+            float:right;
+            text-align:right; 
+            margin-right: 5%;
+            color:gray
         }
         a:visited{color:blue;}
     </style>
 </head>
 
-<body style="margin-top:20mm;margin-bottom: 40mm;width: 220mm;margin-left: auto;margin-right: auto;">
+<body style="margin-top:20mm;margin-bottom: 40mm;width: 240mm;margin-left: auto;margin-right: auto;">
     <div class="wrapper">
         <section>
             <!-- Header -->
             <div>
-                <div style="float:left; text-align:left;margin-left: 8mm;width:500px;height:200px;">
+                <div style="float:left; text-align:left;margin-left:50mm;width:110mm;">
                     <p style="font-size:18mm;text-align: center;margin:0mm;font-family: 华文行楷;">
                         秦<span style="color: gray">绍飞</span>
                     </p>
@@ -94,7 +98,7 @@
                         </span>
                     </p>
                 </div>
-                <div style="float:right; text-align:left;margin-top:3mm;margin-bottom:10mm;margin-right:15mm;width:240px;height:190px;">
+                <div style="float:right; text-align:left;margin-top:0mm;margin-bottom:10mm;margin-right:20mm;width:60mm;">
                     <img src="photo.jpg" width="120px">
                 </div>
                 <br />
@@ -110,95 +114,121 @@
                 </div><div class="eduR">
                     中国，上海   2016.09 - 2020.06 
                 </div><br /><ul><li>
-                    全系排名：7/159； 学积分: 90.15；
+                    全系排名：7/159； 学积分: 90.15/100；
                 </li></ul>
             </li><li>
                 <div class="eduL"><b>
                     信息与通信工程专业，硕士在读，上海交通大学：
                 </b></div><div class="eduR">
                     中国，上海   2020.09 - 2023.03
-                </div>
+                </div><br /><ul><li>
+                    全系排名：未公布（依据奖学金至少前15%）；学绩点: 3.74/4（无得分）；
+                </li></ul>
             </li></ul>
 
             <!-- Skill -->
             <p class="title"><b>相关技能</b></p>
             <hr />
             <ul>
-                <li><strong>编程语言</strong>: Python, C/C++, CUDA, C#, Java, HTML5</li>
-                <li><strong>交流语言</strong>: 英语(CET-6)</li>
+                <li><strong>编程语言</strong>: <em>熟练：</em>Python, C/C++； <em>可应用：</em> CUDA, C#, SQL, JavaScript, HTML5</li>
+                <li><strong>交流语言</strong>: 英语（CET-6：514）</li>
             </ul>
 
             <!-- Research -->
-            <p class="title"><b>研究经历</b></p>
+            <p class="title"><b>科研经历</b></p>
             <hr />
             <ul><li>
-                <p class="subtitle"><strong>RoboMaster:</strong></p>
-                <div class="res"><div class="resL"><em>
-                    嵌入式系统设计
-                </em></div><div class="resR">
+                <div class="res"><div class="resL"><strong>
+                    RoboMaster 嵌入式系统设计（RoboMaster机甲大师赛全国赛 2019亚军）
+                </strong></div><div class="resR">
                     2017.06 - 2019.08
                 </div></div><br /><ul><li> 
-                    为校队设计了一款用户友好的嵌入式框架；
+                    为校队设计了一款用户友好的嵌入式框架；研究优化了机器人的云台控制算法，提高其稳定性；
                 </li><li> 
-                    研究优化了机器人的云台控制算法，提高其稳定性。
+                    设计了全自动机器人“哨兵”的控制代码并编写索敌与攻击逻辑，使用数据分析优化弹道。
                 </li></ul>
             </li><li>
-                <p class="subtitle"><b>全国大学生物联网设计大赛：</b></p>
-                <div class="res"><div class="resL"><em>
-                    二维码批量处理:
-                </em></div><div class="resR">
-                    2019.04 - 2019.08
+                <div class="res"><div class="resL"><strong>
+                    二维码快速批量处理（全国大学生物联网设计大赛 国赛一等奖/TMC 2021）
+                </strong></div><div class="resR">
+                    2019.04 - 2020.08
                 </div></div><br /><ul><li> 
                     参考CenterNet设计网络，使得网络运行速度提升数百倍，使其在移动设备上可以进行实时处理；
                 </li><li> 
-                    设计了全新的追踪算法，利用时间上的信息冗余，充分减少重复计算并提高物体检测精度。
+                    设计了全新的追踪算法，利用时间上的信息冗余，充分减少重复计算并提高物体检测精度；
                 </li><li> 
                     可以在手机上实时地定位和解码近百个的二维码，适用于二维码密集存在的环境。
                 </li></ul>
             </li><li>
-                <p class="subtitle"><strong>本科生毕业设计:</strong></p>
-                <div class="res"><div class="resL"><em>
-                    基于四元数的深度神经网络在三维旋转群上的应用
-                </em></div><div class="resR">
-                    2019.10 - 2020.06
+                <div class="res"><div class="resL"><strong>
+                    基于对比学习的通用攻击研究
+                </strong></div><div class="resR">
+                    2020.10 - 2021.04
+                </div></div><br /><ul><li> 
+                    使用类对比学习算法，无需任何标注，可以使用任意互联网中的图像进行通用扰动的训练；
+                </li><li> 
+                    具有良好的数据迁移性和同类模型迁移性，在预训练模型被广泛使用的当下，可攻击范围极大；
+                </li><li> 
+                    Fooling rate表现优秀，在无标注设置下可以超过有标注设置下的SOTA。
+                </li></ul>
+            </li><li>
+                <div class="res"><div class="resL"><strong>
+                    基于四元数的深度神经网络在三维旋转群上的应用及其运算优化研究（TPAMI 2022）
+                </strong></div><div class="resR">
+                    2019.10 - 2021.11
                 </div></div><br /><ul><li> 
                     设计在三维旋转群上推理和优化的四元数神经网络，使神经网络完全不受输入数据旋转的影响；
                 </li><li> 
-                    对哈密尔顿积从数据结构与算法的角度设计优化策略，使用CUDA进行实现，提高80%的运行速度；
+                    设计专用算法和结构对哈密尔顿连乘进行优化，并用CUDA封装，压缩其运行时间至5%（效率等同于sum）；
                 </li><li> 
-                    设计了一个由四元数域向实数域映射的方法，显著提高与实数网络兼容性，便于与现有成果结合。
+                    设计了一个由四元数域向实数域映射的方法，显著提高与实数网络兼容性，便于与现有成果结合；
+                </li><li> 
+                    在骨架动作分类、点云分类等依赖旋转不变性的任务上，所提出模型可以保持SOTA。
                 </li></ul>
-            </li><li>
-                <p class="subtitle"><strong>近期工作:</strong></p>
-                <div class="res"><div class="resL"><em>
-                    具有旋转等变性的骨架动作生成
-                </em></div><div class="resR">
-                    2020.10 - 至今
+            <!-- </li><li>
+                <div class="res"><div class="resL"><strong>
+                    基于四元数的深度神经网络与蛋白质功能预测
+                </strong></div><div class="resR">
+                    2022.01 - 至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </div></div><br /><ul><li> 
-                    延续之前的研究理念，使神经网络输出兼有跟随输入数据同步转动的能力；
+                    ；
                 </li><li> 
-                    相比于现有研究，可以依据输入数据的方向生成方向一致的动作序列，降低网络对数据的依赖程度；
-                </li><li> 
-                    （进行中）将上述性质应用于动作序列插值中，做到由更为自由的关键帧生成自然的动作序列，降低3D动画的动作捕捉成本。
-                </li></ul>
+                    。
+                </li></ul> -->
             </li></ul>
 
             <p class="title"><b>
-                学生工作
+                工作经历
             </b></p>
             <hr />
 
             <ul><li>
-                <strong>上海交通大学学生创新中心</strong> <em>项目管理部门部长</em>
-                <ul><li>
+                <div class="res"><div class="resL"><strong>
+                    上海交通大学学生创新中心 <em>项目管理部门部长</em>
+                </strong></div><div class="resR">
+                    2018.09 - 2019.08
+                </div></div><br /><ul><li>
                     组织RoboMaster机甲大师赛校内赛；
                 </li><li>
                     为学生创新中心的嵌入式相关课程提供技术支持与辅导。
                 </li></ul>
-            <!-- </li><li> -->
+            </li><li>
+                <div class="res"><div class="resL"><strong>
+                    字节跳动科技有限公司 <em>AI-LAB 计算机视觉算法实习生</em>
+                </strong></div><div class="resR">
+                    2021.07 - 2022.07
+                </div></div><br /><ul><li>
+                    独立负责FeatureBank业务的开发与维护，能力方面：覆盖60余种特征类型，特征总数达数百亿，现阶段仍在持续增长；业务方面：辅助增强模型迭代效率，平均缩短下游模型迭代周期7天，并计划支持融合模型训练；相关能力产出一篇专利；
+                </li><li>
+                    负责商业化机审基础模型库12个服务的维护与迭代，维持模型性能稳定与服务稳定，不随业务场景剧烈变化；责任期间实现三个模型平均3%的召回提升，并上线两个准确率90%以上的拒绝模型；
+                </li><li>
+                    初步搭建黑词库，实现黑词的自动化增删，定向管控高危风险，降低漏放0.3%，未来将持续优化；
+                </li><li>
+                    开发并上线拓展性较好的通用中转服务，将第三方服务接入机审平均耗时由14天缩短至2天；
+                </li></ul>
             </li></ul>
 
-
+            <br /><br />
             <p class="title"><b>奖励与荣誉</b></p>
             <hr />
             <ul><li><em>
@@ -214,9 +244,9 @@
                 </strong>, 
                 上海市物理协会
             ；</li><li><em>
-                2018.08
+                2018.08、2019.08
                 </em>, <strong>
-                RoboMaster 2018 全国总决赛二等奖（32强）
+                RoboMaster 全国总决赛32强、亚军
                 </strong>, 
                 共青团中央、全国学联秘书处
             ；</li><li><em>
@@ -231,12 +261,6 @@
                 优秀学生干部
                 </strong>,
                 共青团上海交通大学委员会
-            ；</li><li><em>
-                2019.08
-                </em>, <strong>
-                RoboMaster 2019 全球总决赛特等奖（亚军）
-                </strong>,
-                共青团中央，全国学联秘书处
             ；</li><li><em>
                 2019.08
                 </em>, <strong>
@@ -255,6 +279,12 @@
                 优秀毕业生
                 </strong>, 
                 上海交通大学
+            ；</li><li><em>
+                2021.11
+                </em>, <strong>
+                研究生学业一等奖学金
+                </strong>, 
+                上海交通大学
             。</li></ul>
 
             <p class="title"><b>出版刊物</b></p>
@@ -263,15 +293,19 @@
             <ul><li>
                 <p style="line-height: 0.5;"><b>Quaternion Product Units for Deep Learning on 3D Rotation Groups</b></p>
                 <p style="line-height: 0.5;">Xuan Zhang, <b>Shaofei Qin</b>, Yi Xu, Hongteng Xu</p>
-                <p style="line-height: 0.5;">IEEE/CVF Conference on Computer Vision and Pattern Recognition(CVPR 2020), Seattle, USA, 2020</p>
+                <p style="line-height: 0.5;">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2020), Seattle, USA, 2020</p>
             </li><li>
                 <p style="line-height: 0.5;"><b>Fast Batch Reading Densely Deployed QR Codes</b></p>
                 <p style="line-height: 0.5;">Xiaohua Tian*(导师), <b>Shaofei Qin*</b>, Binyao Jiang, Xinbing Wang</p>
-                <p style="line-height: 0.5;">IEEE Transactions on Mobile Computing 2021 第二轮审稿</p>
+                <p style="line-height: 0.5;">IEEE Transactions on Mobile Computing 2021</p>
             </li><li>
                 <p style="line-height: 0.5;"><b>Dominant Patterns: Critical Features Hidden in Deep Neural Networks</b></p>
                 <p style="line-height: 0.5;">Zhixing Ye*, <b>Shaofei Qin*</b>, Sizhe Chen, Xiaolin Huang</p>
-                <p style="line-height: 0.5;">Conference and Workshop on Neural Information Processing Systems 2021 (NIPS 2021, 在投)</p>
+                <p style="line-height: 0.5;">ArXiv preprint arXiv:2105.15057 (NIPS 2021, 未中转投)</p>
+            </li><li>
+                <p style="line-height: 0.5;"><b>Fast Quaternion Product Units for Learning Decoupled Invariance and Equivariance on 3D Rotation Groups</b></p>
+                <p style="line-height: 0.5;"><b>Shaofei Qin</b>, Xuan Zhang, Hongteng Xu, Yi Xu</p>
+                <p style="line-height: 0.5;">Transactions of Pattern Analysis and Machine Intelligence (TPAMI 2022, 二轮审稿中)</p>
             </li></ul>
 
         </section>
