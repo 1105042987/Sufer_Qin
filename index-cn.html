@@ -52,24 +52,23 @@
             color:gray;
             font-style: italic;
         }
-        .res{
-            margin-bottom:1mm;
-            /* margin-top:1mm; */
-        }
         .resL{
             float:left;
             width: 80%;
             height: 5mm;
             text-align:left;
+            /* margin-top:1mm; */
+            margin-bottom:1mm;
             font-family:"Fira Code"
         }
         .resR{
-            margin-top: auto;
-            width: 15%;
-            height: 4mm;
-            font-size:3.5mm;
             float:right;
+            width: 15%;
+            height: 5mm;
             text-align:right; 
+            /* margin-top: 1mm; */
+            margin-bottom:1mm;
+            font-size:3.5mm;
             margin-right: 5%;
             color:gray
         }
@@ -138,21 +137,21 @@
             <p class="title"><b>科研经历</b></p>
             <hr />
             <ul><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     RoboMaster 嵌入式系统设计（RoboMaster机甲大师赛全国赛 2019亚军）
                 </strong></div><div class="resR">
                     2017.06 - 2019.08
-                </div></div><br /><ul><li> 
+                </div><br /><ul><li> 
                     为校队设计了一款用户友好的嵌入式框架；研究优化了机器人的云台控制算法，提高其稳定性；
                 </li><li> 
                     设计了全自动机器人“哨兵”的控制代码并编写索敌与攻击逻辑，使用数据分析优化弹道。
                 </li></ul>
             </li><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     二维码快速批量处理（全国大学生物联网设计大赛 国赛一等奖[1%]/TMC 2021）
                 </strong></div><div class="resR">
                     2019.04 - 2020.08
-                </div></div><br /><ul><li> 
+                </div><br /><ul><li> 
                     参考CenterNet设计网络，并利用分离卷积与轻量化backbone使网络可以在移动设备上可以进行实时处理；
                 </li><li> 
                     设计了全新的追踪算法，利用时间上的信息冗余，充分减少重复计算并提高物体检测精度；
@@ -160,11 +159,11 @@
                     可以在手机上实时地定位和解码近百个的二维码，适用于二维码密集存在的环境。
                 </li></ul>
             </li><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     基于对比学习的通用攻击研究（DSP 2022 转投中）
                 </strong></div><div class="resR">
                     2020.10 - 2021.04
-                </div></div><br /><ul><li> 
+                </div><br /><ul><li> 
                     使用类对比学习算法，无需任何标注，可以使用任意互联网中的图像进行通用扰动的训练；
                 </li><li> 
                     具有良好的数据迁移性和同类模型迁移性，在预训练模型被广泛使用的当下，可攻击范围极大；
@@ -172,11 +171,11 @@
                     Fooling rate表现优秀，在无标注设置下可以超过有标注设置下的SOTA。
                 </li></ul>
             </li><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     基于四元数的深度神经网络在三维旋转群上的应用及其运算优化研究（TPAMI 2022）
                 </strong></div><div class="resR">
                     2019.10 - 2021.11
-                </div></div><br /><ul><li> 
+                </div><br /><ul><li> 
                     设计在三维旋转群上推理和优化的四元数神经网络，使神经网络完全不受输入数据旋转的影响；
                 </li><li> 
                     设计专用算法和结构对哈密尔顿连乘进行优化，并用CUDA封装，压缩其运行时间至5%（效率等同于sum）；
@@ -193,21 +192,21 @@
             <hr />
 
             <ul><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     上海交通大学学生创新中心 <em>项目管理部门部长</em>
                 </strong></div><div class="resR">
                     2018.09 - 2019.08
-                </div></div><br /><ul><li>
+                </div><br /><ul><li>
                     组织RoboMaster机甲大师赛校内赛；
                 </li><li>
                     为学生创新中心的嵌入式相关课程提供技术支持与辅导。
                 </li></ul>
             </li><li>
-                <div class="res"><div class="resL"><strong>
+                <div class="resL"><strong>
                     字节跳动科技有限公司 <em>AI-LAB 计算机视觉算法实习生</em>
                 </strong></div><div class="resR">
                     2021.07 - 2022.07
-                </div></div><br /><ul><li>
+                </div><br /><ul><li>
                     独立负责组内特征库的开发与维护，并参与自动迭代项目的设计研发，能力方面：覆盖60余种特征类型，特征总数达数百亿，现阶段仍在持续增长；业务方面：增强模型迭代效率，缩短下游模型迭代周期至平均7天，正向率70%以上，并支持融合模型训练；<b>相关能力产出一篇专利</b>；
                 </li><li>
                     负责商业化机审用户体验侧12个服务的维护与迭代，维持模型性能稳定与服务稳定，不随业务场景剧烈变化；并上线两个准确率90%以上的拒绝模型和三个漏放30%以下的召回模型；
@@ -298,7 +297,7 @@
             </li><li>
                 <p style="line-height: 0.5;"><b>Fast Quaternion Product Units for Learning Decoupled Invariance and Equivariance on 3D Rotation Groups</b></p>
                 <p style="line-height: 0.5;"><b>Shaofei Qin</b>, Xuan Zhang, Hongteng Xu, Yi Xu</p>
-                <p style="line-height: 0.5;">[人工智能Top1期刊] Transactions of Pattern Analysis and Machine Intelligence (TPAMI 2022, Minor Revision 二轮)</p>
+                <p style="line-height: 0.5;">[人工智能Top1期刊] Transactions of Pattern Analysis and Machine Intelligence (TPAMI 2022, Minor Revision 三轮)</p>
             </li></ul>
 
         </section>
